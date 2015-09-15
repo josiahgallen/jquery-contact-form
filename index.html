@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Login</title>
+	<link rel="stylesheet" type="text/css" href="/styles/main.sass.css">
+</head>
+<body>
+	<form>
+		<h1>Contact Us</h1>
+		<div>Name</div>
+		<input type="text" placeholder="Sally Smith" id="name">
+		<div class="error" id="error1">Name cannot be left empty</div>
+		<div>Email</div>
+		<input type="text" placeholder="ssmith@gmail.com" id="email">
+		<div class="error" id="error2">Email must contain an '@'</div>
+		<div>Website</div>
+		<input type="text" placeholder="http://mssmith.net" id="website">
+		<div class="error" id="error3">Website must start with http://</div>
+		<div>Message</div>
+		<textarea placeholder="A friendly message..."></textarea>
+		<div class="error" id="error4">Message cannot be left empty</div>
+		<button>Submit</button>
+	</form>
+
+	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+	<script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>

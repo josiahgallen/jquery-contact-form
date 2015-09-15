@@ -1,0 +1,40 @@
+body {
+  background: black;
+  padding: 2em;
+  font-family: sans-serif; }
+  body form {
+    background: white;
+    padding: 1em 2em 1em 1em; }
+    body form div {
+      margin: 0.5em auto 0.5em auto; }
+    body form input {
+      font-size: 1em;
+      width: 100%;
+      padding: 0.5em 0 0.5em 0.5em;
+      margin-right: .5em;
+      outline: none;
+      border-left: solid black 0.3em; }
+    body form .error {
+      color: red;
+      display: none; }
+    body form textarea {
+      font-size: 1em;
+      width: 100%;
+      padding: 0.5em 0 0.5em 0.5em;
+      height: 10em;
+      outline: none;
+      border-left: solid black 0.3em; }
+    body form button {
+      display: block;
+      background: black;
+      color: white;
+      font-size: 2em;
+      padding: 1em;
+      margin-top: .5em;
+      outline: none;
+      border: none; }
+
+@media screen and (min-width: 58em) {
+  form {
+    width: 48em;
+    margin: 0 auto; } }

@@ -1,0 +1,56 @@
+body {
+	background: black;
+	padding: 2em;
+	font-family: sans-serif;
+
+	form {
+		background: white;
+		padding: 1em 2em 1em 1em;
+
+		div {
+			margin: .5em auto .5em auto;
+		}
+
+		input {
+			font-size: 1em;
+			width: 100%;
+			padding: .5em 0 .5em .5em;
+			margin-right: .5em;
+			outline: none;
+			border-left: solid black .3em;
+		}
+
+		.error {
+			color: red;
+			display: none;
+		}
+
+		textarea {
+			font-size: 1em;
+			width: 100%;
+			padding: .5em 0 .5em .5em;
+			height: 10em;
+			outline: none;
+			border-left: solid black .3em;
+		}
+
+		button {
+			display: block;
+			background: black;
+			color: white;
+			font-size: 2em;
+			padding: 1em;
+			margin-top: .5em;
+			outline: none;
+			border: none;
+		}
+	}
+}
+
+@media screen and (min-width: 58em) {
+
+	form {
+		width : 48em;
+		margin: 0 auto;
+	}
+}
