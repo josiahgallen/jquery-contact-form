@@ -2,6 +2,7 @@ body {
 	background: black;
 	padding: 2em;
 	font-family: sans-serif;
+	overflow: hidden;
 
 	form {
 		background: white;
@@ -43,7 +44,21 @@ body {
 			margin-top: .5em;
 			outline: none;
 			border: none;
+			transition: background 2s;
+
+			&:hover {
+				background: #88C470;
+			}
 		}
+	}
+
+	#recieved {
+		background: white;
+		font-size: 2em;
+		display: none;
+		text-align: center;
+		padding: 1em;
+		margin: 0 auto;
 	}
 }
 

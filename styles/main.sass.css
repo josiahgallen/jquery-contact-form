@@ -1,7 +1,8 @@
 body {
   background: black;
   padding: 2em;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  overflow: hidden; }
   body form {
     background: white;
     padding: 1em 2em 1em 1em; }
@@ -32,7 +33,17 @@ body {
       padding: 1em;
       margin-top: .5em;
       outline: none;
-      border: none; }
+      border: none;
+      transition: background 2s; }
+      body form button:hover {
+        background: #88C470; }
+  body #recieved {
+    background: white;
+    font-size: 2em;
+    display: none;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto; }
 
 @media screen and (min-width: 58em) {
   form {
