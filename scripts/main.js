@@ -47,8 +47,6 @@ $(document).ready(function() {
         		$recieved.text('Thanks for contacting us ' + userData[0] + '. We recieved your message and will contact you shortly.')
         		$recieved.show();
         	}
-
-        	console.log(userData);
         }
     })
 })
